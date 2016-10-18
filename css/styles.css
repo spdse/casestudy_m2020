@@ -1,0 +1,57 @@
+p {
+  line-height: 1.5;
+  letter-spacing: .05em;
+}
+
+a {
+  color: #43C6F1;
+}
+
+.f7 {
+  font-size: 0.75rem;
+}
+
+.wc {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wc-s {
+  width: 60%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sp-blue {
+  color: #43C6F1;
+}
+
+hr.thick {
+  border: 2px solid black;
+}
+
+hr.thin {
+  border: 1px solid #e2e2e2;
+}
+
+/*List*/
+
+ul.dashed > li {
+  text-indent: -5px;
+  letter-spacing: .05em;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .wc {
+    width: 95%;
+  }
+  .wc-s {
+    width: 80%;
+  }
+}

@@ -27,6 +27,18 @@ a {
   color: #43C6F1;
 }
 
+.lg {
+  color: #a2aeb6;
+}
+
+.lg-bg {
+  background-color: #a2aeb6;
+}
+
+.bbl {
+  border-left: 3px solid black;
+}
+
 hr.thick {
   border: 2px solid black;
 }

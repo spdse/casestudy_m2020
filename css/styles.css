@@ -1,9 +1,24 @@
+body {
+  word-wrap: break-word;
+}
+
+.nt {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+.ms {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
 p {
   line-height: 32px;
   letter-spacing: .05em;
   margin: 0;
   color: #515e65;
-
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
 }
 
 a {
@@ -22,7 +37,8 @@ a:hover {
 }
 
 .f1 {
-  font-size: 6rem;
+  /*font-size: 6rem;*/
+  line-height: 1.25;
 }
 
 .f7 {
@@ -49,8 +65,8 @@ a:hover {
   color: #a2aeb6;
 }
 
-.lg-bg {
-  background-color: #a2aeb6;
+.db-bg {
+  background-color: #011031;
 }
 
 .bbl {
@@ -76,6 +92,8 @@ hr.thin {
 }
 
 ul.dashed > li {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
   text-indent: -5px;
   letter-spacing: .05em;
   line-height: 32px;
@@ -91,10 +109,17 @@ ul.dashed > li:before {
   .wc {
     width: 95%;
   }
+  .f-headline {
+    font-size: 3.5rem;
+  }
   .wc-s {
     width: 85%;
   }
   .f1 {
     font-size: 4rem;
+  }
+  p,
+  ul.dashed > li {
+    line-height: 25px;
   }
 }
